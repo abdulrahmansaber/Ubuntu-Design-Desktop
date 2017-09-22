@@ -46,11 +46,13 @@ $(function () {
     $('.folder').css({
       'top': '-1000px'
     });
+    $(this).hide();
   });
   $('.open-folder-app').on('click', function () {
     $('.folder').css({
       'top': '0'
     });
+    $('.close-folder-app').show();
   });
 
   // List View
